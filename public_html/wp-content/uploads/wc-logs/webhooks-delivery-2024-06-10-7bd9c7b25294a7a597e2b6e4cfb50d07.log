@@ -1,0 +1,61 @@
+2024-06-10T00:11:45+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e1b5cf7bcca320c4291067753e557799
+            [Date] => Jun 10, 2024 @ 0:11
+            [URL] => https://api-prod.printify.com/v1/callbacks/woo/orders/created/13809460
+            [Duration] => 6.08328
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.9.2 Hookshot (WordPress/6.5.4)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://staticfreedesigns.com/
+                            [X-WC-Webhook-Topic] => action.woocommerce_order_status_processing
+                            [X-WC-Webhook-Resource] => action
+                            [X-WC-Webhook-Event] => woocommerce_order_status_processing
+                            [X-WC-Webhook-Signature] => kBS5CAWKHq81AmZF5uh0EEQGwe06bmi0HfJMUFAMiLs=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => e1b5cf7bcca320c4291067753e557799
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 10 Jun 2024 00:11:45 GMT
+                                    [content-type] => application/json
+                                    [cache-control] => no-cache, private
+                                    [content-encoding] => gzip
+                                    [x-ab-test-token] => f1c4d757-b553-4531-b69e-0d566601b8d1
+                                    [x-content-type-options] => nosniff
+                                    [x-dns-prefetch-control] => off
+                                    [x-pfy-correlation-id] => 00e4818e-744f-4b8b-b057-c2da1e14de92
+                                    [x-ratelimit-limit] => 4000
+                                    [x-ratelimit-remaining] => 3997
+                                    [x-xss-protection] => 1; mode=block
+                                    [cf-cache-status] => DYNAMIC
+                                    [set-cookie] => __cf_bm=z.SqPcYSMa4BifjNvAN067Tvkpk.3jdCb7SAnkfgd.c-1717978305-1.0.1.1-U3BnUJbncPbua6mU1PFQ_EpeX1XIUNthe1T_4B08_fzgAtF7FIQcBNaKlkHPPBK8LOYOllQWgamEU2dlUCUUtg; path=/; expires=Mon, 10-Jun-24 00:41:45 GMT; domain=.printify.com; HttpOnly; Secure; SameSite=None
+                                    [server] => cloudflare
+                                    [cf-ray] => 891525309ccee9b9-DFW
+                                    [alt-svc] => h3=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
